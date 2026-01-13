@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Master</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Product Master</h2>
+
+<input id="prodName" placeholder="Enter Product Name">
+<select id="catSelect"></select>
+<button onclick="saveProduct()">Save</button>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Cat ID</th>
+            <th>Cat Name</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody id="prodTable"></tbody>
+</table>
+
+
+<button onclick="prevPage()">Prev</button>
+<button onclick="nextPage()">Next</button>
+
+
+<a href="category">Go to Category Page</a>
+
+<script src="script.js"></script>
+</body>
+</html>

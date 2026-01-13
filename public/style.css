@@ -1,0 +1,104 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5f7;
+    padding: 20px;
+    text-align: center; 
+}
+
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input, select {
+    width: 250px;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+button {
+    padding: 8px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: #007bff;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+button.delete {
+    background-color: #dc3545;
+}
+
+button.delete:hover {
+    background-color: #b02a37;
+}
+
+
+button.edit {
+    background-color: #fd7e14;
+}
+
+button.edit:hover {
+    background-color: #e76a00;
+}
+
+
+button#prev, button#next {
+    background-color: #28a745;
+}
+
+button#prev:hover, button#next:hover {
+    background-color: #218838;
+}
+
+
+table {
+    width: 80%;
+    margin: 20px auto; /* center table */
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 0 5px #aaa;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #007bff;
+    color: white;
+}
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px auto;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.form-container {
+    margin-bottom: 20px;
+}
+
+input + button, select + button {
+    vertical-align: middle;
+}
