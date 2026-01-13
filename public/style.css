@@ -65,7 +65,7 @@ button#prev:hover, button#next:hover {
 
 table {
     width: 80%;
-    margin: 20px auto; /* center table */
+    margin: 20px auto; 
     border-collapse: collapse;
     background: #fff;
     box-shadow: 0 0 5px #aaa;
